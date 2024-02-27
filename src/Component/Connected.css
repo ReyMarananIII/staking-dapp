@@ -1,0 +1,51 @@
+.connected-container {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .connected-container h1 {
+    margin-bottom: 10px;
+  }
+  
+  .welcome-message {
+    color: #007bff; /* Set your desired color for the welcome message */
+  }
+  
+  .connected-account {
+    font-weight: bold;
+  }
+  
+  button {
+    padding: 10px;
+    margin: 5px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    border: 2px solid #007bff; /* Set your desired border color for the buttons */
+    border-radius: 5px;
+    background-color: #fff; /* Set your desired background color for the buttons */
+    color: #007bff; /* Set your desired text color for the buttons */
+  }
+  
+  button:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  input {
+    padding: 8px;
+    margin: 5px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .stake-amount {
+    margin-top: 10px;
+  }
