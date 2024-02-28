@@ -13,7 +13,7 @@
   }
   
   .welcome-message {
-    color: #007bff; /* Set your desired color for the welcome message */
+    color: #007bff; 
   }
   
   .connected-account {
@@ -26,10 +26,10 @@
     font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
     cursor: pointer;
-    border: 2px solid #007bff; /* Set your desired border color for the buttons */
+    border: 2px solid #007bff; 
     border-radius: 5px;
-    background-color: #fff; /* Set your desired background color for the buttons */
-    color: #007bff; /* Set your desired text color for the buttons */
+    background-color: #fff; 
+    color: #007bff; 
   }
   
   button:hover {

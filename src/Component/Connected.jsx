@@ -39,7 +39,7 @@ const Connected = (props) => {
 
     
     useEffect(() => {
-        const balanceUpdateInterval = setInterval(updateBalanceAmount, 5000); // Update every 5 seconds (adjust as needed)
+        const balanceUpdateInterval = setInterval(updateBalanceAmount, 5000); 
 
         
         return () => clearInterval(balanceUpdateInterval);

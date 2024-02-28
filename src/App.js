@@ -98,7 +98,7 @@ function App() {
       const stakedBalanceWithdrawal = await OlyContract.getStake(owner);
       console.log("Withdrawal successful. Staked balance after withdrawal: ", stakedBalanceWithdrawal.toString());
   
-      // Wait for the transaction to be mined
+      
       await OlyContract.provider.waitForTransaction(withdrawTransaction.hash);
   
       
